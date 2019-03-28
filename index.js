@@ -27,6 +27,6 @@ function currentLine(currLine) {
       }
       
   }
-  return `The Line is currently: ${tempCurr} `
+  return `The line is currently: ${tempCurr} `
 }
 
