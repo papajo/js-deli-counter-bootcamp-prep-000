@@ -19,7 +19,7 @@ function currentLine(currLine) {
     return "The line is currently empty."
   } else {
       for (let i = 0; i < currLine.length; i++) {
-        tempCurr += ` ${i+1}. ${currLine[i]}, `  
+        tempCurr += `${i+1}. ${currLine[i]}, `  
       }
       
   }
