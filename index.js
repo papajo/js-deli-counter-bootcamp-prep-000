@@ -20,7 +20,7 @@ function currentLine(currLine) {
   } else {
       for (let i = 0; i < currLine.length; i++) {
         if (i === currLine.length) {
-          tempCurr += `${i+1}. ${currLine[i]} ` 
+          tempCurr += `${i+1}. ${currLine[i]}` 
         } else {
           tempCurr += `${i+1}. ${currLine[i]}, `  
         }
